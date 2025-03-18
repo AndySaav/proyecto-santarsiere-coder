@@ -1,0 +1,53 @@
+/* ESTILOS PARA HEADER */
+
+.nav_bar {
+    background-color: blue;
+}
+
+header nav ul li {
+    text-decoration: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ESTILOS DEL MAIN */
+main h1{
+    font-size: 3vw;
+}
+
+main h2{
+    font-size: 2vw;
+}
+
+main p{
+    font-size: 1vw;
+}
+
+    /* Estilo Pagina Nuestro equipo */
+.container_equipo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .container_equipo{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: space-between;
+    }
+}
+
+/* ESTILOS DEL FOOTER */
+footer{
+    text-align: center;
+    background-color: blue;
+}
+
+footer p {
+    color: white;
+}
